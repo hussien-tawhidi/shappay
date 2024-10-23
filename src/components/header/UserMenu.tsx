@@ -8,6 +8,7 @@ import LightButton from "../buttons/LightButton";
 import { IoLogoGoogle } from "react-icons/io";
 import { signIn } from "next-auth/react";
 import truncate from "truncate";
+import { signOut } from "../../../auth";
 
 interface props {
   session: any;
